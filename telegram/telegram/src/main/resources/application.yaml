@@ -2,6 +2,21 @@ spring:
   application:
     name: telegram menu bot
 
+  datasource:
+    url: jdbc:mysql://localhost:3306/telegram_bot?createDatabaseIfNotExist=true
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
 server:
   port: ${TELEGRAM_BOT_PORT}
 
@@ -11,3 +26,22 @@ telegram:
     username: ${TELEGRAM_BOT_USERNAME}
     token: ${TELEGRAM_BOT_KEY}
     url: ${TELEGRAM_BOT_URL}
+
+barbershop:
+  name: "Barbershop Name"
+  address: "123 Main St"
+  opening-time: "09:00"
+  closing-time: "19:00"
+  closed-days: SUNDAY
+  slot-interval-minutes: 30
+  min-advance-booking-hours: 2
+  booking-window-days: 7
+  deposit-percentage: 25
+
+loyalty:
+  points-per-booking: 10
+  first-booking-bonus: 50
+  birthday-bonus-points: 100
+  birthday-discount-code: "BDAY20"
+  birthday-discount-percent: 20
+  milestones: 5,10,25,50,100

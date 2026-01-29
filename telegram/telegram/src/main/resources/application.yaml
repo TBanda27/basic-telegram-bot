@@ -9,5 +9,5 @@ telegram:
   bot:
     name: ${TELEGRAM_BOT_NAME}
     username: ${TELEGRAM_BOT_USERNAME}
-    token: ${TELEGRAM_API_KEY}
+    token: ${TELEGRAM_BOT_KEY}
     url: ${TELEGRAM_BOT_URL}

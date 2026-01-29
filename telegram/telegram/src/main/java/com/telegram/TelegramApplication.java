@@ -17,5 +17,4 @@ public class TelegramApplication {
 
         SpringApplication.run(TelegramApplication.class, args);
 	}
-
 }

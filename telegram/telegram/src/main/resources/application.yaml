@@ -37,11 +37,10 @@ barbershop:
   min-advance-booking-hours: 2
   booking-window-days: 7
   deposit-percentage: 25
-
-loyalty:
-  points-per-booking: 10
-  first-booking-bonus: 50
-  birthday-bonus-points: 100
-  birthday-discount-code: "BDAY20"
-  birthday-discount-percent: 20
-  milestones: 5,10,25,50,100
+  loyalty:
+    points-per-booking: 10
+    first-booking-bonus: 50
+    birthday-bonus-points: 100
+    birthday-discount-code: "BDAY20"
+    birthday-discount-percent: 20
+    milestones: 5,10,25,50,100

@@ -1,3 +1,13 @@
 spring:
   application:
     name: telegram menu bot
+
+server:
+  port: ${TELEGRAM_BOT_PORT}
+
+telegram:
+  bot:
+    name: ${TELEGRAM_BOT_NAME}
+    username: ${TELEGRAM_BOT_USERNAME}
+    key: ${TELEGRAM_API_KEY}
+    url: ${TELEGRAM_BOT_URL}

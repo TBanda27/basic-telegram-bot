@@ -15,6 +15,8 @@ public class BarbershopConfig {
 
     private String name;
     private String address;
+    private String phoneNumber;
+    private String eircode;
     private LocalTime openingTime;
     private LocalTime closingTime;
     private DayOfWeek closedDays;

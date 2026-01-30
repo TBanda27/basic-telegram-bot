@@ -28,8 +28,10 @@ telegram:
     url: ${TELEGRAM_BOT_URL}
 
 barbershop:
-  name: "Barbershop Name"
-  address: "123 Main St"
+  name: "Kings Cut Barbershop"
+  phone-number: "+353123456789"
+  address: "Unit 3, Irish Barber, 123 Main St, Dublin, Ireland"
+  eircode: "D01 ABC2"
   opening-time: "09:00"
   closing-time: "19:00"
   closed-days: SUNDAY
